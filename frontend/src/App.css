@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+.TopBar{
+  position:fixed;
+  background:white;
+  width:210vh;
+  height:70px;
+  box-shadow: 1px 1px 10px #BBBBBB;
+  padding-top: 20px;
+  padding-left: 40px;
+  box-sizing:border-box;
+  }
+  
+  .TopBar button{
+  border:none;
+  background:none;
+  font-weight:bold;
+  padding-left: 40px;
+  font-size:20px;
+  }
+  
+  .TopBar button:focus{
+  color:#55AA44;
+  }
+  
+  #focused{
+  color:#55AA44;
+  }
