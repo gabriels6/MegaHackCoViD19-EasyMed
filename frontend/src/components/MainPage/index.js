@@ -53,14 +53,18 @@ function MainPage(){
 <div className = "Prescricoes">
 {prescriptions.map(prescription =>(
 <div key = {prescription._id} className = "Prescricao" id = "card">
-
+<form method = "post">
+<input type = "hidden" value = {prescription._id}/>
 <b>{prescription.NomeDoPaciente}</b>
 <p/>
 {prescription.NomeDoMedicamento}<p/>
 {prescription.InstrucoesDeUso}
 <p/>
-<button>...</button>
+<Router>
+    <Link to = "/EditarReceita"><button>...</button></Link>
+</Router>
 
+</form>
 </div>
 ))}
 

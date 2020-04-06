@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+#Control{
+font-family:roboto;
+color:#444444;
+display:flex;
+margin:0;
+padding:0;
+background:#EEEEEE;
+}
+
+#NovaPrescricao{
+height:8vh;
+font-size: 20;
+width:50vh;
+border:none;
+border-radius: 40px;
+background:#88DD66;
+font-weight:bold;
+}
+
+.TopBar{
+position:fixed;
+background:white;
+width:210vh;
+height:70px;
+box-shadow: 1px 1px 10px #BBBBBB;
+padding-top: 20px;
+padding-left: 40px;
+box-sizing:border-box;
+}
+
+.TopBar button{
+border:none;
+background:none;
+font-weight:bold;
+padding-left: 40px;
+font-size:20px;
+}
+
+.Apresentacao{
+font-size:45pt;
+font-weight:bold;
+margin-top:20vh;
+margin-left:35vh;
+line-height:90px;
+}
+
+#ProfileIcon{
+margin-left:95vh;
+width:40px;
+height:40px;
+background:black;
+box-sizing:border-box;
+color:white;
+font-weight:bold;
+font-size:20;
+padding: 12px;
+border-radius: 30px;
+}
+
+.TopBar button:focus{
+color:#55AA44;
+}
+
+#focused{
+color:#55AA44;
+}
